@@ -1,14 +1,14 @@
 <img src='https://www.insight.com/content/dam/insight-web/logos/global-nav.svg'>
 
-## Welcome to Summit19
+# Welcome to Summit19!
 
 For attendees of the two hands-on sessions on Python and AI:
 
-These are the session files for Engineering Summit 2019. In order to maximize the value of the session it is critical to follow along and get hands-on experience with the tools, techniques, and packages that we are going to be exploring together. Getting the environment and becoming somewhat familiar with Jupyter Notebook before your session will make for a much more pleasant and valuable experience. We want you to get the most out of your time!
+These are the `ipynb` (Jupyter Notebook) session files for Engineering Summit 2019. In order to maximize the value of the session it is critical to follow along and get hands-on experience with the tools, techniques, and packages that we are going to be exploring together. Getting the environment and becoming somewhat familiar with Jupyter Notebook before your session will make for a much more pleasant and valuable experience. We want you to get the most out of your time!
 
-## Prep work
+## Preparation
 
-Before the session we ask that you:
+Before the session:
 
 * Have <b>Anaconda</b> installed on your laptop.
 *   Anaconda includes Python, Jupyter, the `conda` environment manager, and every library you will need for our session this week.
@@ -23,6 +23,15 @@ Before the session we ask that you:
 
 ## Files
 
-Please download and access `Summit19_TestMe.ipynb`, at least. This notebook has a couple of lines of code to test your environment and a cell at the bottom which downloads the latest session content to `./dl`.
+NOTE: The files on GitHub are only the Jupyter Notebooks - the data files or images are not provided here.
 
-It is highly recommend you refresh your documents before your session(s) this week in case there are updates.
+NOTE EVEN HARDER: You will be emailed a DropBox link (Monday 2/11) which contains a zip file of ***ALL FILES YOU NEED FOR THE SESSIONS***, including data files and images. The file is `summit19.zip`.
+
+# Updating Files
+
+If I make updates and you need to update your Notebooks, you have three options:
+* Use `git` and to clone this repository, and just make sure that you get `./img/` and `./data/` into the same folder as the updated notebooks
+* Use the "poor man's git" in `Summit19_TestMe.ipynb`, which has a cell at the bottom that will downloads the latest session content to `./dl` relative to where the notebook lives.
+* Ask me or Juan for assistance.
+
+~~It is highly recommend you refresh your documents before your session(s) this week in case there are updates.~~ unlikely, but possible.
