@@ -1,3 +1,10 @@
+# files to be delivered directly
+img/
+data/
+
+# internal
+Summit19_Template.ipynb
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
