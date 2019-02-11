@@ -29,9 +29,13 @@ NOTE EVEN HARDER: You will be emailed a DropBox link (Monday 2/11) which contain
 
 # Updating Files
 
-If I make updates and you need to update your Notebooks, you have three options:
-* Use `git` and to clone this repository, and just make sure that you get `./img/` and `./data/` into the same folder as the updated notebooks
-* Use the "poor man's git" in `Summit19_TestMe.ipynb`, which has a cell at the bottom that will downloads the latest session content to `./dl` relative to where the notebook lives.
+If I update the content, and you need to refresh your Notebooks, you have three options:
+* Use `git` and to clone this repository. Just make sure that you get your original `./img/` and `./data/` into the same folder as the updated notebooks.
+* Use the "poor man's git" in `Summit19_TestMe.ipynb`, which has a cell at the bottom that will download the latest session content (notebooks only) to `./dl` relative to where the originating notebook lives.
 * Ask me or Juan for assistance.
+
+If you get your stuff working, please help your fellow attendees if they're having trouble so that we can all follow along.
+
+Thanks!
 
 ~~It is highly recommend you refresh your documents before your session(s) this week in case there are updates.~~ unlikely, but possible.
